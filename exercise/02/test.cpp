@@ -59,14 +59,12 @@ public:
 
 	TEST_METHOD(array_move_constructor)
 	{
-		/*
 		array a(size, value);
 		array b = std::move(a);
 		Assert::AreEqual(0, a.size());
 		Assert::AreEqual(size, b.size());
 		for (int i = 0; i < b.size(); ++i)
 			Assert::AreEqual(value, b.at(i));
-		*/
 	}
 
 };

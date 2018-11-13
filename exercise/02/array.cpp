@@ -35,6 +35,7 @@ array::array(array&& other) {
   n = other.n;
   p = other.p;
   other.p = nullptr;
+  other.n = 0;
 }
 
 array::~array() {
